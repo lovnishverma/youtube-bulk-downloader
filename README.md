@@ -1,10 +1,4 @@
-Here’s a polished `README.md` file for your GitHub repository [`youtube-bulk-downloader`](https://github.com/lovnishverma/youtube-bulk-downloader):
 
----
-
-### ✅ `README.md`
-
-````markdown
 # 🎥 YouTube Bulk Downloader
 
 A simple and efficient Python script to download multiple YouTube videos in one go using the `yt-dlp` library.
@@ -15,10 +9,10 @@ A simple and efficient Python script to download multiple YouTube videos in one 
 
 ## 🚀 Features
 
-- 📥 Download multiple YouTube videos from a list
-- 🧠 Uses `yt-dlp` for high-quality, reliable downloads
-- 📁 Automatically saves videos to a `downloads/` folder
-- 🛡️ Skips already downloaded videos
+- 📥 Download multiple YouTube videos from a list  
+- 🧠 Uses `yt-dlp` for high-quality, reliable downloads  
+- 📁 Automatically saves videos to a `downloads/` folder  
+- 🛡️ Skips already downloaded videos  
 - ✅ Simple CLI-based usage
 
 ---
@@ -67,11 +61,11 @@ Videos will be downloaded to the `downloads/` folder.
 
 ```
 youtube-bulk-downloader/
-├── downloads/              # Downloaded videos go here (auto-created)
-├── video_urls.txt          # Your list of YouTube URLs
-├── youtube_bulk_downloader.py  # The main script
-├── README.md               # This file
-└── .gitignore              # Ignores __pycache__, downloads, etc.
+├── downloads/                  # Downloaded videos go here (auto-created)
+├── video_urls.txt              # Your list of YouTube URLs
+├── youtube_bulk_downloader.py # The main script
+├── README.md                   # This file
+└── .gitignore                  # Ignores __pycache__, downloads, etc.
 ```
 
 ---
@@ -89,7 +83,7 @@ The script:
 
 ## 📝 .gitignore
 
-```gitignore
+```
 __pycache__/
 *.pyc
 downloads/
@@ -101,14 +95,4 @@ downloads/
 
 MIT License © [Lovnish Verma](https://github.com/lovnishverma)
 
-```
-
----
-
-Let me know if you want:
-- Badges (stars, forks, license)
-- CLI options (e.g. `--audio-only`, `--resolution 720p`)
-- A version that supports playlists or channels
-
-I'll help you enhance and document it.
 ```
